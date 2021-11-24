@@ -10,10 +10,39 @@ h3{
 }
 a{
     color:red;
+    text-decoration: none;
 }
 .lists{
     color : #8e8732;
 }
 a img{
     width:100px;
+}
+a:hover{
+    text-decoration: underline;
+}
+p::first-letter{
+    font-size: 50px;
+}
+
+.more{
+    display: none;
+}
+
+.more:target{
+    display: block;
+}
+
+li.titles{
+    list-style-type: none;
+    color: #8e8732 ;
+    font-weight: bold;
+}
+ol { 
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+li {
+    flex: 0 0 auto;
 }
