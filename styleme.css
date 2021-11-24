@@ -1,5 +1,6 @@
 body{
     background-color: #595647;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 h1{
     color: #2596be;
@@ -37,6 +38,9 @@ li.titles{
     list-style-type: none;
     color: #8e8732 ;
     font-weight: bold;
+}
+li.subtitles{
+    list-style-type: none;
 }
 ol { 
     display: flex;
