@@ -50,3 +50,7 @@ ol {
 li {
     flex: 0 0 auto;
 }
+
+.subtitles li{
+    list-style-type: none;
+}
